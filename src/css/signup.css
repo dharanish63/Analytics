@@ -1,0 +1,82 @@
+/* Center the form and apply background and padding */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Container styling */
+form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography styling */
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Text field styles */
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+input {
+  align-items:center;
+  font-size: 16px;
+}
+
+/* Paper component styling */
+.MuiPaper-root {
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Link and Typography for login */
+a {
+  color: #1976d2;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.MuiTypography-root {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Sign up Button styling */
+button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #155a9b;
+  color: white;
+}
